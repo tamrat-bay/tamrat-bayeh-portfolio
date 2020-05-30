@@ -1,0 +1,119 @@
+.MoreDetails {
+    height: 90vh;
+    width: 95vw;
+    background-color: #e3e3e3;
+    border-radius: 13px;
+    box-shadow: 0 0 23px;
+    border: 1px solid black;
+    position: fixed;
+    top: 60px;
+    z-index: 2;
+    overflow: overlay;
+    box-sizing: border-box;
+}
+.MoreDetails_exit{
+    background-color: #a71212ba;
+    border-radius: 3px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+}
+.MoreDetails_exit h2{
+    margin: 0;
+}
+.MoreDetails_images {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.MoreDetails_images .bigScreen{
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.MoreDetails_images .bigScreen img {
+    width: 100%;
+    height: 100%;
+}
+.MoreDetails h1 {
+    margin: 6px;
+    clear: both;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.MoreDetails_images .mobile{
+    height: 100%;
+    width: 35%;
+}
+.MoreDetails_images .mobile img {
+    height: 100%;
+    width: 300px;
+}
+.MoreDetails .description p {
+    width: 85%;
+    margin: 5px auto;
+    font-size: 1.14em;
+}
+.MoreDetails .MuiCardActions-root {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.MoreDetails .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    color: rgb(53, 65, 95);
+    letter-spacing: 3px;
+}
+.MoreDetails  a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width : 990px) {
+    .MoreDetails_images .mobile img {
+        width: 220px;
+    }
+    .MoreDetails_images .bigScreen img {
+        width: 355px;
+    }
+    .MoreDetails_images {
+        height: 45vh;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .MoreDetails_images {
+        height: 25vh;
+    }
+    .MoreDetails_images .bigScreen img {
+        width: 260px;
+    }
+    .MoreDetails_images .mobile img {
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .MoreDetails_images {
+        flex-direction: column;
+        height: 50vh;
+    }
+    .MoreDetails_images .bigScreen img {
+        width: 300px;
+    }
+    .MoreDetails_images .mobile {
+        width: 100%;
+    }
+    .MoreDetails_images .bigScreen {
+        height: 50vh;
+    }
+    .MoreDetails_exit {
+        position: unset;
+    }
+}

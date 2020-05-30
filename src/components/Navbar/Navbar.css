@@ -1,0 +1,81 @@
+.Navbar {
+    z-index: 2;
+    width: 100%;
+
+}
+.Navbar .MuiAppBar-positionFixed {
+    position: absolute;
+    width: 100%;
+    top: 94vh;
+}
+.Navbar .MuiPaper-elevation4 {
+    box-shadow: 0 0;
+}
+
+.Navbar .MuiToolbar-regular {
+    min-height: 55px;
+    display: flex;
+    min-height: 55px;
+    justify-content: center;
+}
+.Navbar .MuiAppBar-colorPrimary {
+    color: #fff;
+    font-size: 1.2em;
+    background-color: transparent;
+    transition: background-color .6s;
+}
+.Navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: .2s ;
+}
+.Navbar a:hover {
+    text-decoration: underline;
+    transform: translateY(-5px);
+}
+.Navbar .MuiIconButton-label {
+    width: 100%;
+    display: flex;
+    align-items: inherit;
+    justify-content: inherit;
+    color: #d9d872;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: .9em;
+    margin: 0 5px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.Navbar nav{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* Media query  460px nav fontsize*/
+
+@media only screen and (max-width:480px){
+.Navbar a {
+    font-size: .9em;
+    font-weight: 00;
+    letter-spacing: 0;
+}
+}
+@media only screen and (max-width:405px){
+.Navbar a {
+    font-size: .8em;
+    font-weight: 00;
+    letter-spacing: 0;
+}
+.Navbar .MuiIconButton-label {
+    font-size: .7em;
+    letter-spacing: 1px;
+}
+}

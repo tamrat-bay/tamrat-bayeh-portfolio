@@ -1,0 +1,46 @@
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.Contact .makeStyles-root-5 > * {
+    width: 280px;
+    margin: 8px;
+}
+.Contact textarea {
+    width: 273px !important;
+}
+
+.Contact_info {
+    background-color: #272a34;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px;
+}
+
+.Contact_info h4 {
+    width: 250px;
+    text-align: start;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.Contact_info h4 span:nth-of-type(odd){
+    color: #7ccf8a;
+}
+.Contact_info h4 span:nth-of-type(even), .Contact_info  a{
+    color: white;
+}
+.Contact .MuiButton-containedPrimary {
+    color: #272a34;
+    background-color: #7ccf8a;
+}
+.Contact .MuiButton-containedPrimary:hover {
+    background-color: #4f8057;
+}

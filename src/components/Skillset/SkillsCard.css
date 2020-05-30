@@ -1,0 +1,32 @@
+.SkillsCard {
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    height: 285px;
+    margin: 2px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #454d66e0;
+    transition: all .2s linear;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.SkillsCard p{
+    margin: 5px 0;
+    color: #ffffff;
+    font-size: 1.1em;
+}
+.SkillsCard i{
+    font-size: 45px;
+    display: block;
+    margin: 5px 0;
+    color: #cfcfcf;
+}
+.SkillsCard h3{
+    margin: 5px 0;
+    color: #d9d872;
+}
+.SkillsCard:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 6px black;
+}

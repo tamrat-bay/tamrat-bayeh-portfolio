@@ -1,0 +1,57 @@
+.ProjectCard .MuiCardActions-root {
+    background-color: #d9d872;
+    position: absolute;
+    bottom: 0px;
+    width: 97%;
+    display: flex;
+    justify-content: space-around;
+}
+.ProjectCard .MuiCardContent-root {
+    background-color: #ffffffc5;
+    height: 127px;
+}
+
+.ProjectCard .makeStyles-root-3 {
+    box-shadow: 2px 3px 5px;
+    margin: 0 auto;
+}
+.ProjectCard .makeStyles-root-3 {
+    max-width: 345px;
+    height: 434px;
+    position: relative;
+}
+.ProjectCard .makeStyles-media-4 {
+    height: 230px;
+    transition: .35s all ;
+}
+.ProjectCard .makeStyles-media-4:hover {
+    transform: scale(1.12);
+}
+.ProjectCard .MuiTypography-h5 {
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #272a34;
+    box-shadow: 0px 0px 3px black;
+    text-transform: uppercase;
+}
+.ProjectCard .MuiTypography-colorTextSecondary {
+    color: rgb(8, 8, 8);
+}
+
+.ProjectCard {
+    transition: .3s linear;
+} 
+.ProjectCard:hover {
+ transform: translateY(-15px);
+}
+.ProjectCard:hover .makeStyles-root-3 {
+ box-shadow: 4px 8px 5px  ;
+}
+.ProjectCard .MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    color: black;
+    font-size: 1.2em;
+}

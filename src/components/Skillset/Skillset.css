@@ -1,0 +1,43 @@
+
+.Skillset{
+    /* margin: 20px 0; */
+    position: relative;
+}
+.Skillset_skills{
+    display: flex;
+    justify-content: center;
+}
+.Skillset_overlay {
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    /* background-image: url(https://cdn.pixabay.com/photo/2015/10/30/10/03/matrix-1013613_960_720.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/07/03/53/digitization-5140055_960_720.jpg);
+    background-size: 93%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .4;
+    z-index: -1;
+    top: 145px;
+    animation: bgImage 6s linear infinite;
+}
+.Skillset .MuiGrid-spacing-xs-4 > .MuiGrid-item {
+    padding: 16px;
+    z-index: 1;
+}
+
+@keyframes bgImage {
+    0%{top: 145px;}
+    50%{top: 200px;}
+    100%{top: 145px;}
+}
+
+@media only screen and (max-width:442px){
+    .SkillsCard {
+        width: 100%;
+    }
+    .Skillset .MuiGrid-spacing-xs-4 > .MuiGrid-item {
+        padding: 10px;
+        z-index: 1;
+    }
+}
